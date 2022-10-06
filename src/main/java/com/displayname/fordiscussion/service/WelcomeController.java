@@ -55,9 +55,7 @@ public class WelcomeController {
 		 SunbirdApiRequest requestObj = new SunbirdApiRequest();
 		Map<String, Object> reqMap = new HashMap<>();
 		reqMap.put(Constants.FILTERS,new HashMap<String, Object>() {
-			{
-				put(Constants.EMAIL,"chandni.babu@nic.in");
-			}
+			
 		});
 		reqMap.put(Constants.FIELDS, new HashMap<String, Object>() {
 			{
